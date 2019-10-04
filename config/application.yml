@@ -1,0 +1,11 @@
+spring:
+  profiles: dev #dev模式
+logging:
+  config: classpath:logback-spring.xml
+
+fileUpload:
+  img:
+    user: C:/CustomSoftware/Nginx-Cluster/nginx-1.16.1/static/img/user/
+fileRequest:
+  img:
+    user: http://nginx.ciel.cl/img/user/
